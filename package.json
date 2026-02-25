@@ -1,0 +1,13 @@
+{
+  "name": "gmail-local-ai",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node copy-assets.js && esbuild offscreen.js --bundle --outfile=offscreen.bundle.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.3.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
